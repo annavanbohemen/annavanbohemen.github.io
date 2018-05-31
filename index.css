@@ -1,3 +1,7 @@
+.container {
+    margin-top: 40px;
+}
+
 .card {
     position: relative;
     display: block;
@@ -9,10 +13,6 @@
 
 .card-img-top{
     width: 50%;
-}
-
-.container {
-    margin-top: 40px;
 }
 
 .card-block{
