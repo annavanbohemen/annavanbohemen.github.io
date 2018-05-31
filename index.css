@@ -10,3 +10,11 @@
 .card-img-top{
     width: 50%;
 }
+
+.container {
+    margin-top: 40px;
+}
+
+.card-block{
+    padding: 1.25rem; 
+}
