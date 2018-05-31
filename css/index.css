@@ -1,4 +1,4 @@
-/* .container {
+.container {
     margin-top: 40px !important;
 }
 
@@ -8,13 +8,43 @@
     margin-bottom: .75rem;
     background-color: #fff;
     border-radius: .25rem;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(204, 48, 134, 0.63);
+    word-wrap: normal;
 }
 
-.card-img-top{
-    width: 50%;
+.card-story{
+    border-radius: .25rem;
+    border: 1px solid rgba(204, 48, 134, 0.63);
+    padding: 20px;
+}
+
+.row2{
+    margin-top: 5%;
+}
+.card2{
+    border-radius: .25rem;
+    border: 1px solid rgba(204, 48, 134, 0.63);
+    padding: 20px;
 }
 
 .card-block{
     padding: 1.25rem !important; 
-} */
+}
+
+.card-block img{
+    padding-right: 10px;
+}
+
+.bubble{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.img-dif{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
