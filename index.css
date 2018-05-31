@@ -1,5 +1,5 @@
-.container {
-    margin-top: 40px;
+header {
+    margin-top: 40px !important;
 }
 
 .card {
@@ -16,5 +16,5 @@
 }
 
 .card-block{
-    padding: 1.25rem; 
+    padding: 1.25rem !important; 
 }
