@@ -9,7 +9,7 @@
     background-color: #fff;
     border-radius: .25rem;
     border: 1px solid rgba(204, 48, 134, 0.63);
-    word-wrap: normal;
+    /* word-wrap: normal; */
 }
 
 .card-story{
