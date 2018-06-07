@@ -1,0 +1,17 @@
+.cardRoos {
+    position: relative;
+    display: block;
+    margin-bottom: .75rem;
+    background-color: #fff;
+    border-radius: .25rem;
+    padding: 20px;
+    border: 1px solid rgba(1.0, 0.23, 0.13, 1.0);
+    /* word-wrap: normal; */
+}
+
+.screenshot{
+    display: inline;
+    float: left;
+    height: 300px;
+    padding: 20px;
+}

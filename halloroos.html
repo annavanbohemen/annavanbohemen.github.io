@@ -7,14 +7,64 @@
     <title>Anna van Bohemen</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
+    <link href="css/halloroos.css" rel="stylesheet">
   </head>
   <body>
+    <body cz-shortcut-listen="true">
+      <header class="container">
         <div class="row">
-                <div class="col-sm-4"><img class="card-img-top img-fluid" src='img/inlog.png' alt=''/></div>
-                <div class="col-sm-4"><img class="card-img-top img-fluid" src='img/homepage.png' alt=''/></div>
-        </div>
+                <div>
+                    <img class="screenshot" src="img/aanmelden.png" alt='screenshot aanmeld pagina'/>
+                    <img class="screenshot" src='img/inlog.png' alt='screenshot inlog pagina'/>
+                    <img class="screenshot" src='img/homepage.png' alt='screenshot homepage'/>
+                    <img class="screenshot" src='img/uploadcontract.png' alt='screenshot upload pagina'/>
+                    <img class="screenshot" src='img/contractdetail.png' alt='screenshot upload details pagina'/>
+                </div>   
+                <div class="cardRoos">
+                  
+                    <h3>Project description</h3>
+                    <p>This project was made by me and my fellow graduate students from Codaisseur for Roos.nl as a final group assignment.
+                        Unfortunatly halloroos.nl doens't want the code to be public - so here is a description of what I have done.
+                    </p>
+                    <h4>The goal of the app</h4>
+                    <ul>
+                        <li>Test if people are willing to upload their contracts through the Upload App with their halloroos.nl email account</li>
+                        <li>See if the information can be manually added to their account on Roos.nl if there are matching emails</li>
+                        <li>Gather information about the type of contracts people have.</li>
+                        <li>For the admin to be able to see the contract details of all users using the app</li>
+                    </ul>
 
+                    <h4>Languages and Tools used</h4>
+                    <h5>Frontend:</h5>
+                    <ul>
+                        <li>React/Redux</li>
+                        <li>JSX</li>
+                        <li>Styling: CSS, Material-ui</li>
+                    </ul>
+                    <h5>Backend:</h5>
+                    <ul>
+                        <li>Typescript</li>
+                        <li>TypeORM</li>
+                        <li>PostgreSQL</li>
+                        <li>AWS S3</li>
+                    </ul>  
+                    <h4>I implemented</h4>
+                    <h5>Frontend:</h5>
+                    <ul>
+                        <li>Privacy statement/ oblicated to give permission</li>
+                        <li>Google analytics</li>
+                        <li>How to add contract/ make picture</li>
+                        <li>Styling</li>
+                    </ul>
+                    <h5>Backend:</h5>
+                    <ul>
+                        <li>Endpoints upload and download contracts</li>
+                        <li>Set-up AWS S3</li>
+                    </ul>
+                </div>
+                <a href="index.html">BACK</a>
+        </div>
+    </header>
   </body>
   </html>
       
